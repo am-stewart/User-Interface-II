@@ -64,17 +64,20 @@ header {
 
 /*intro section styles*/
 .intro {
-    height: 50vh;
+    height: 70vh;
+    
 }
 .bkg-img {
+    background-image: url(../photo-1469474968028-56623f02e42e.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-size: ;
-    height: 40vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 10%;
 }
 .name {
     height: 5vh;
@@ -96,7 +99,7 @@ h3 {
     font-size: 3rem;
 }
 .bottom {
-    height: 100vh;
+    height: 200vh;
 }
 .proj-container {
     display: flex;
@@ -118,13 +121,13 @@ h3 {
 .project1 img {
     display: flex;
     justify-content: center;
-    size: 100px;
+    width: 25%;
     margin-bottom: 2%;
 }
 
 .project2 img {
     display: flex;
     justify-content: center;
-    size: 100px;
+    width: 25%;
     margin-bottom: 2%;
 }
