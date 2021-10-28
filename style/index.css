@@ -44,7 +44,7 @@ body {
     font-size: 1.6rem;
     font-family: 'Patrick Hand', cursive;
     padding: 2% 0;
-    background-color: #d6d6d6;
+    background-color: white;
 }
 /*header styles*/
 header {
@@ -65,19 +65,15 @@ header {
 /*intro section styles*/
 .intro {
     height: 70vh;
-    
 }
 .bkg-img {
     background-image: url(../photo-1469474968028-56623f02e42e.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
-    background-size: ;
     height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 10%;
 }
 .name {
     height: 5vh;
@@ -99,7 +95,7 @@ h3 {
     font-size: 3rem;
 }
 .bottom {
-    height: 200vh;
+    height: 100vh;
 }
 .proj-container {
     display: flex;
@@ -118,16 +114,22 @@ h3 {
 .project1, .project2, .project3 {
     margin-bottom: 4%;
 }
-.project1 img {
+
+.project1 img, .project2 img, .project3 img, .project4 img, .project5 img, .project6 img {
     display: flex;
     justify-content: center;
-    width: 25%;
-    margin-bottom: 2%;
+    width: 70%;
+    margin-bottom: 1%;
 }
 
-.project2 img {
-    display: flex;
-    justify-content: center;
-    width: 25%;
-    margin-bottom: 2%;
+/*footer style*/
+footer {
+    background-color: lightgray;
+    text-align: center;
+    text-decoration: none;
+}
+footer #contact {
+    font-size: 2rem;
+    text-decoration: none;
+    color: hotpink;
 }
