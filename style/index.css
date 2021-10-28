@@ -1,1 +1,84 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/*Brit's Design*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Patrick Hand', cursive;
+    padding: 2% 0;
+    background-color: #d6d6d6;
+}
+/*header styles*/
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-name, nav {
+    font-size: 2.5rem;
+    padding: 1% 0;
+    color: #4f4f51;
+}
+#home, #about, #contact, #projects {
+    text-decoration: none;
+    color: #4f4f51;
+}
+
+/*intro section styles*/
+.intro {
+    height: 50vh;
+}
+.bkg-img {
+    background: 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: ;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
