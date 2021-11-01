@@ -161,3 +161,11 @@ h3 {
 #contact-button:hover {
     color: white;
 }
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 500px) {
+    
+}
